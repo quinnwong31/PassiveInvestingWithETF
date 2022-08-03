@@ -1,13 +1,13 @@
 # PassiveInvestingWithETF
 
 ## Description
-The Passive Investing with ETF notebook is a sample notebook that illustrates how to access a financial database using SQL and to deploy the notebook as a web application.   In this example, we are provided with a test database `etf.db` that contains OHLCV data for the following stocks: GDOT, GS, PYPL, SQ.   With this data, we perform the following steps: 
+
+The Passive Investing with ETF notebook is a sample notebook that illustrates how to access a financial database using SQL and to deploy the notebook as a web application. In this example, we are provided with a test database `etf.db` that contains OHLCV data for the following stocks: GDOT, GS, PYPL, SQ. With this data, we perform the following steps:
 
 1. Analyze a single asset in the ETF
 2. Optimize data access with Advanced SQL queries
 3. Analyze the ETF portfolio
 4. Deploy the notebook as a web application
-
 
 ## Technologies
 
@@ -15,13 +15,12 @@ This example uses the following technologies:
 
 - **Jupyter** - Jupyter is a web-based interactive development environment for data science and analysis. Please see [Jupyter documentation](https://jupyter.org/) for more information.
 - **pandas** - pandas is a software library written for the Python programming language for data manipulation and analysis. Please see [pandas documentation](https://pandas.pydata.org/) for more information.
-- SQLAlchemy - SQLAlchemy is an open-source SQL toolkit and ORM for Python.    Please see [SQLAlchemy documentation](https://www.sqlalchemy.org/) for more information.
+- SQLAlchemy - SQLAlchemy is an open-source SQL toolkit and ORM for Python. Please see [SQLAlchemy documentation](https://www.sqlalchemy.org/) for more information.
 - Voilà - Voilà is a python library that turns Jupyter notebooks into standalone web applications.
-
 
 ## Installation
 
-In order to use this application, you will need to install `Jupyter`, `pandas`, `hvPlot`, `SQLAlchemy` and `Voila`.   Below are the instructions for installing each required library.
+In order to use this application, you will need to install `Jupyter`, `pandas`, `hvPlot`, `SQLAlchemy` and `Voila`. Below are the instructions for installing each required library.
 
 ### Installing Jupyter
 
@@ -36,6 +35,7 @@ To install `pandas`, please refer to the [pandas Installation Guide](https://pan
 To install `sqlalchemy`, please refer to the [SQLAlchemy Installation Guide](https://pypi.org/project/SQLAlchemy/).
 
 ### Installing Voila
+
 To install `Voila`, please refer to the [Voila Installation Guide ](https://pypi.org/project/voila/).
 
 ## Usage
@@ -59,7 +59,31 @@ To launch the Notebook, perform the following steps:
 
 Once you have launched the notebook, you can then execute each section.
 
-@TODO
+- Analyze a single asset in the ETF
+- Optimize data access with Advanced SQL queries
+- Analyze the ETF portfolio
+
+### Deploy the Notebook as a Web Application
+
+To deploy the notebook as a web application, do the following:
+
+1. Launch the terminal.
+
+![Launch_Terminal_Voila](/Images/voila_terminal.jpg)
+
+2. Enter in the following command to deploy the notebook with Voila:
+
+`(base) quinnwong@Quinns-MBP PassiveInvestingWithETF % voila etf_analyzer.ipynb`
+
+This will start the Voila web server:
+
+![Voila Start Server](/Images/voila_start_server.jpg)
+
+3. Verify that the notebook has launched as a web application:
+
+![Launch Voila](/Images/voila_intro.jpg)
+
+![Voila Step 3](/Images/voila_step3.jpg)
 
 ## Contributors
 
