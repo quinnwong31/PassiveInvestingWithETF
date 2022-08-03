@@ -1,7 +1,13 @@
 # PassiveInvestingWithETF
 
 ## Description
-@TODO 
+The Passive Investing with ETF notebook is a sample notebook that illustrates how to access a financial database using SQL and to deploy the notebook as a web application.   In this example, we are provided with a test database `etf.db` that contains OHLCV data for the following stocks: GDOT, GS, PYPL, SQ.   With this data, we perform the following steps: 
+
+1. Analyze a single asset in the ETF
+2. Optimize data access with Advanced SQL queries
+3. Analyze the ETF portfolio
+4. Deploy the notebook as a web application
+
 
 ## Technologies
 
@@ -9,13 +15,13 @@ This example uses the following technologies:
 
 - **Jupyter** - Jupyter is a web-based interactive development environment for data science and analysis. Please see [Jupyter documentation](https://jupyter.org/) for more information.
 - **pandas** - pandas is a software library written for the Python programming language for data manipulation and analysis. Please see [pandas documentation](https://pandas.pydata.org/) for more information.
-- SQL
-- SQLAlchemy
+- SQLAlchemy - SQLAlchemy is an open-source SQL toolkit and ORM for Python.    Please see [SQLAlchemy documentation](https://www.sqlalchemy.org/) for more information.
+- Voilà - Voilà is a python library that turns Jupyter notebooks into standalone web applications.
 
 
 ## Installation
 
-In order to use this application, you will need to install `Jupyter`, `pandas`, `hvPlot` and `GeoViews`.   Below are the instructions for installing each required library.
+In order to use this application, you will need to install `Jupyter`, `pandas`, `hvPlot`, `SQLAlchemy` and `Voila`.   Below are the instructions for installing each required library.
 
 ### Installing Jupyter
 
@@ -25,6 +31,12 @@ To install Jupyter, please refer to the [Jupyter Installation Guide](https://jup
 
 To install `pandas`, please refer to the [pandas Installation Guide](https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html).
 
+### Installing SQLAlchemy
+
+To install `sqlalchemy`, please refer to the [SQLAlchemy Installation Guide](https://pypi.org/project/SQLAlchemy/).
+
+### Installing Voila
+To install `Voila`, please refer to the [Voila Installation Guide ](https://pypi.org/project/voila/).
 
 ## Usage
 
